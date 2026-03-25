@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f8f8f8;
+}
+
+header {
+    background: #ff4d6d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.producto {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

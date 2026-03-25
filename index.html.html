@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DulceMix - Tienda</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>🍬 DulceMix</h1>
+    <p>Gomitas y brownies irresistibles</p>
+</header>
+
+<nav>
+    <a href="#productos">Productos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#carrito">Carrito</a>
+</nav>
+
+<section id="productos">
+    <h2>Productos</h2>
+
+    <div class="producto">
+        <h3>Vaso de Gomitas Chico</h3>
+        <p>$30</p>
+        <button onclick="agregar('Gomitas Chico',30)">Agregar</button>
+    </div>
+
+    <div class="producto">
+        <h3>Vaso de Gomitas Grande</h3>
+        <p>$50</p>
+        <button onclick="agregar('Gomitas Grande',50)">Agregar</button>
+    </div>
+
+    <div class="producto">
+        <h3>Brownie Clásico</h3>
+        <p>$25</p>
+        <button onclick="agregar('Brownie',25)">Agregar</button>
+    </div>
+
+    <div class="producto">
+        <h3>Brownie con Toppings</h3>
+        <p>$35</p>
+        <button onclick="agregar('Brownie Especial',35)">Agregar</button>
+    </div>
+
+</section>
+
+<section id="carrito">
+    <h2>Carrito</h2>
+    <ul id="lista"></ul>
+    <p>Total: $<span id="total">0</span></p>
+    <button onclick="comprar()">Comprar</button>
+</section>
+
+<section id="nosotros">
+    <h2>Nosotros</h2>
+
+    <h3>Misión</h3>
+    <p>Ofrecer dulces de calidad que alegren el día de nuestros clientes.</p>
+
+    <h3>Visión</h3>
+    <p>Ser la tienda de dulces más reconocida en nuestra comunidad.</p>
+
+    <h3>Valores</h3>
+    <ul>
+        <li>Calidad</li>
+        <li>Responsabilidad</li>
+        <li>Honestidad</li>
+        <li>Creatividad</li>
+    </ul>
+
+    <h3>Ubicación</h3>
+    <p>Mérida, Yucatán, México</p>
+</section>
+
+<footer>
+    <p>© 2026 DulceMix</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
